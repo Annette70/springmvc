@@ -7,7 +7,7 @@
     <title>Exchange Student</title>
 </head>
 <body>
-<c:url value="/travel/showForm" var="actionUrl"/>
+<c:url value="/travel/processForm" var="actionUrl"/>
 <form:form action="${actionUrl}" modelAttribute="exchStudent">
 
     Home Country:
