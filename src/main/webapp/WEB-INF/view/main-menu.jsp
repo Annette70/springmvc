@@ -20,5 +20,9 @@
 <a href="credit/showForm">Credit Form</a>
 <br>
 <a href="travel/showForm">Exchange Student</a>
+<br>
+<a href="validation/form">Form</a>
+<br>
+<a href="/validation/list">Customer List</a>
 </body>
 </html>

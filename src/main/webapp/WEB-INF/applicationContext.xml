@@ -18,4 +18,9 @@
     <mvc:resources mapping="/resources/**" location="/WEB-INF/resources/"/>
 
     <util:properties id="gradeLevelProp" location="classpath:gradeLevel.properties"/>
+
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="message"/>
+    </bean>
+
 </beans>
